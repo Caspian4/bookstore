@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 
 export default function Update() {
   const {id} = useParams()
-  const API_URL = "http://localhost:5001/books"
+  const API_URL = "https://bookstore-majf.onrender.com/books"
   const [form,setForms] = useState({
       title: "",
       author: "",

@@ -4,7 +4,7 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
 export default function Create() {
-    const API_URL = "http://localhost:5001/books"
+    const API_URL = "https://bookstore-majf.onrender.com/books"
     const [form,setForms] = useState({
         title: "",
         author: "",
